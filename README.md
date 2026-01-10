@@ -73,6 +73,46 @@ Follow phases in order. Do not skip ahead.
 - [x] Next.js project created
 - [x] TypeScript enabled
 - [] App Router structure
+    ## 📂 App Router Structure (Checklist)
+     app/
+      ├── [] (public)/
+      │   └── [] page.tsx
+      │ 
+      ├── [] (auth)/
+      │   ├── [] login.tsx
+      │   │   └── [] page.tsx
+      │   ├── [] register.tsx
+      │   │   └── [] page.tsx
+      │   └── [] layout.tsx
+      │ 
+      ├── [] dashboard/
+      │   └── [] page.tsx
+      │ 
+      ├── [] events/
+      │   ├── [] page.tsx
+      │   └── [] [eventId]/
+      │       └── [] page.tsx
+      │
+      │ 
+      ├── [] live/
+      │   ├── [] page.tsx
+      │   └── [] [eventId]/
+      │       └── [] page.tsx
+      │ 
+      ├── [] archive/
+      │   └── [] page.tsx
+      │ 
+      ├── [] api/
+      │   ├── [] auth.ts
+      │   ├── [] invites.ts
+      │   ├── [] events.ts
+      │   ├── [] live.ts
+      │   ├── [] stripe.ts
+      │   └── [] recordings.ts
+      │ 
+      ├── [x] layout.tsx
+      └── [x] globals.css
+
 - [x] Clean unused assets
 - [] Prepare folder structure
 
