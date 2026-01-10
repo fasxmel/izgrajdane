@@ -16,21 +16,88 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+# Private Live Learning Platform
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Minimal invite-only live learning platform  
+Built with Next.js 16 (App Router)
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🎯 Project Goal
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Private theological education
+- One teacher / pastor (initially)
+- Small groups (10–20 people)
+- Live video teaching
+- Invite-only access
+- Subscription-based (membership)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🧱 Tech Stack
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Next.js 16 (App Router)
+- TypeScript
+- MongoDB (later)
+- NextAuth (later)
+- Daily.co (live video)
+- Stripe (subscriptions)
+- Vercel (deployment)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 📂 Current Project Structure
+
+```text
+app/
+  ├── layout.tsx
+  ├── page.tsx
+  ├── globals.css
+  └── favicon.ico
+
+public/
+  └── svg assets
+
+.next/            # auto-generated
+node_modules/     # dependencies
+
+# 🧭 Development Phases
+
+Structured implementation plan for the platform  
+Follow phases in order. Do not skip ahead.
+
+---
+
+## Phase 1 – Base Setup (NOW)
+
+- [x] Next.js project created
+- [x] TypeScript enabled
+- [] App Router structure
+- [x] Clean unused assets
+- [] Prepare folder structure
+
+---
+
+## Phase 2 – Auth & Invites
+
+- [] NextAuth setup
+- [] Invite-only registration
+- [] Protected routes
+
+---
+
+## Phase 3 – Events & Live
+
+- [] Events system
+- [] Live video integration (Daily)
+- [] Recordings
+
+---
+
+## Phase 4 – Payments
+
+- [] Stripe subscriptions
+- [] Access control
+
+---
+
