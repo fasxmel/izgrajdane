@@ -75,7 +75,7 @@ Follow phases in order. Do not skip ahead.
 - [] App Router structure
     ## 📂 App Router Structure (Checklist)
      app/
-      ├── [] (public)/
+      ├── [x] (public)/
       │   └── [] page.tsx
       │ 
       ├── [] (auth)/
