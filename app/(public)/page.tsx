@@ -18,7 +18,7 @@ export default function HeroSection() {
         {/* VIDEO BACKGROUND (z-0) */}
         <video
           src="/videos/video1.mp4"
-          poster="/images/image1.jpg"
+          poster="/images/image1.jpeg"
           autoPlay
           muted
           loop
